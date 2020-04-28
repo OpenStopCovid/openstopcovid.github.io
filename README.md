@@ -39,9 +39,9 @@ The main components of OpenStopCovid are the following:
 
 * [User interface for physicians](https://github.com/OpenStopCovid/health-authority-ui) in order to generate validation codes for sick patients
 
-![OpenStopCovid](img/medic-app/interface-medecin.png)
-![OpenStopCovid](img/medic-app/interface-medecin2.png)
-![OpenStopCovid](img/medic-app/interface-medecin3.png)
+![OpenStopCovid](/img/medic-app/interface-medecin.png)
+![OpenStopCovid](/img/medic-app/interface-medecin2.png)
+![OpenStopCovid](/img/medic-app/interface-medecin3.png)
 
 * [Android application]() relying on [DP-3T SDK](https://github.com/DP-3T/dp3t-sdk-android) for end-users
 * [iOS application]() relying on [DP-3T SDK](https://github.com/DP-3T/dp3t-sdk-ios) for end-users
