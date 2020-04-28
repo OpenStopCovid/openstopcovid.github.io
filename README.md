@@ -58,3 +58,14 @@ Les principales composantes du projet sont les suivantes :
 <hr>
 ![OpenStopCovid](/img/medic-app/interface-medecin3.png)
 <hr>
+
+
+## Pour faire tourner ce site en local
+```
+git clone https://github.com/OpenStopCovid/openstopcovid.github.io.git
+cd openstopcovid.github.io
+git checkout fr  # optionnel : sélectionnez une branche existante (fr, en ou master)
+bundle install
+bundle exec jekyll serve
+# connectez votre navigateur à l'adresse suivante : http://localhost:4000
+```
