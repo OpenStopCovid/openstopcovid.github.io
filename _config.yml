@@ -16,8 +16,9 @@ navbar-links:
   Resources:
     - README: "README"
     - Application mobile: "https://github.com/fmauquie/react-native-dp3t"
+    - Interface médecin: "https://pro-sante.openstopcovid.fr/#home"
+    - Interface médecin-code: "https://github.com/OpenStopCovid/health-authority-ui"
     - Serveur de l'application: "https://github.com/OpenStopCovid/dp3t-ms"
-    - Interface médecin: "https://github.com/OpenStopCovid/health-authority-ui"
     - Specifications: "https://github.com/DP-3T/documents/blob/master/DP3T%20White%20Paper.pdf"
     - Documentation: "https://github.com/DP-3T/documents"
   Press Kit: "presskit"
