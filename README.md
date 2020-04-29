@@ -64,8 +64,18 @@ Les principales composantes du projet sont les suivantes :
 ```
 git clone https://github.com/OpenStopCovid/openstopcovid.github.io.git
 cd openstopcovid.github.io
-git checkout fr  # optionnel : sélectionnez une branche existante (fr, en ou master)
+git checkout fr  # optionnel: sélectionnez une branche existante (fr, en ou master)
 bundle install
 bundle exec jekyll serve
-# connectez votre navigateur à l'adresse suivante : http://localhost:4000
+# connectez votre navigateur à l'adresse: [http://localhost:4000](http://localhost:4000)
+```
+
+## Pour construire un docker en local
+```
+git clone https://github.com/OpenStopCovid/openstopcovid.github.io.git
+cd openstopcovid.github.io
+export lang=fr  # fr par défaut
+docker build --build-arg br=$lang --tag openstopcovid .
+docker run -p 80:4000 openstopcovid
+# connectez votre navigateur à l'adresse: [http://0.0.0.0:80](http://0.0.0.0)
 ```
