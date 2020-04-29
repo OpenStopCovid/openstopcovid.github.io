@@ -1,5 +1,7 @@
 # --- Basic options --- #
 
+encoding: utf-8
+
 # Name of website
 title: OpenStopCovid
 
