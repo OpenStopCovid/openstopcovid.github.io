@@ -42,7 +42,7 @@ L’architecture que nous avons retenue s’appuie directement sur le protocole 
 
 ##  Comment contribuer
 
-Vous pouvez suivre nos travaux sur GitHub : [https://github.com/OpenStopCovid/OpenStopCovid](https://github.com/OpenStopCovid/OpenStopCovid) 
+Vous pouvez suivre nos travaux sur GitHub : [https://github.com/OpenStopCovid](https://github.com/OpenStopCovid) 
 
 ## Nous contacter
 
