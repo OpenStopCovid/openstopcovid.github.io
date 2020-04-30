@@ -5,9 +5,6 @@ MAINTAINER guillaumefe "guillaume.ferron@gmail.com"
 LABEL version="1.0"
 LABEL description="OpenStopCovid website"
 
-# Specificy the branch to land
-ARG br="master"
-
 # Update, upgrade, install host packages, clean apk cache
 RUN apk update && apk upgrade
 RUN apk add ruby ruby-bundler ruby-dev
@@ -22,8 +19,6 @@ RUN bundle config --global silence_root_warning 1
 RUN mkdir /srv/openstopcovid
 COPY . /srv/openstopcovid
 WORKDIR /srv/openstopcovid
-RUN git stash
-RUN git checkout $br
 
 # Build OpenStopCovid website
 RUN bundle

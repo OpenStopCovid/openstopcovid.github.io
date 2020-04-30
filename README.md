@@ -15,8 +15,7 @@ bundle exec jekyll serve
 ```
 git clone https://github.com/OpenStopCovid/openstopcovid.github.io.git
 cd openstopcovid.github.io
-export lang=fr  # fr par défaut
-docker build --build-arg br=$lang --tag openstopcovid .
+docker build . --tag openstopcovid
 docker run -p 80:4000 openstopcovid
 # connectez votre navigateur à l'adresse: [http://0.0.0.0:80](http://0.0.0.0)
 ```
