@@ -6,7 +6,7 @@ LABEL version="1.0"
 LABEL description="OpenStopCovid website"
 
 # Specificy the branch to land
-ARG br="fr"
+ARG br="master"
 
 # Update, upgrade, install host packages, clean apk cache
 RUN apk update && apk upgrade
