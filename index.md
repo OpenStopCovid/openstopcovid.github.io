@@ -1,11 +1,11 @@
 ---
 layout: page
 title: OpenStopCovid
-subtitle: Le traçage numérique éthique pour lutter contre Covid19
+subtitle: Solution de contact tracing décentralisée<br>100% libre et issue de la société civile
 use-site-title: true
 ---
 
-{% include jumbotron.html %}
+{% include openstopcovid.md %}
 
 <div class="posts-list">
   {% for post in paginator.posts %}
