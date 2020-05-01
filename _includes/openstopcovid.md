@@ -1,6 +1,6 @@
 ## Qu’est-ce que le contact tracing
 
-Le traçage numérique des contacts consiste, pour un utilisateur, à installer une application smartphone spécifique qui, à l’aide de la technologie Bluetooth, repère les autres appareils à proximité. En pratique, le téléphone enregistre en mémoire des pseudonymes que les autres appareils diffusent autour d’eux. Le plus souvent encryptées, ces pseudonymes ne peuvent être compris que par des smartphones équipés de la même application. 
+Le traçage numérique des contacts consiste, pour un utilisateur, à installer une application smartphone spécifique qui, à l’aide de la technologie Bluetooth, repère les autres appareils à proximité. En pratique, le téléphone enregistre en mémoire des pseudonymes que les autres appareils diffusent autour d’eux. Le plus souvent chiffrés, ces pseudonymes ne peuvent être compris que par des smartphones équipés de la même application. 
 
 Cette technologie possède  le potentiel ([sans certitude toutefois](https://github.com/DP-3T/documents/issues/224)) de limiter la propagation de la maladie Covid-19 au sein de la population. Ainsi, une application mobile dédiée, développée dans les règles de l’art, pourrait nous permettre de renouer avec un semblant de vie normale, sans pour autant mettre à mal les résultats du confinement qui s’achève. Citons trois avantages à attendre d’une application de traçage :
 * Une personne pourra être rapidement informée lorsqu’elle se sera tenue trop longtemps à proximité d’une personne contaminée. 
