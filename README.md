@@ -1,5 +1,5 @@
 # OpenStopCovid
-## Solution de contact tracing décentralisée, 100% libre et issue de la société civile
+## Solution de contact tracing décentralisée, 100 % libre et issue de la société civile
 
 ## Pour faire tourner ce site en local
 ```
