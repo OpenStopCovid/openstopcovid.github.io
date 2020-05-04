@@ -1,7 +1,7 @@
 ---
 layout: page
 title: OpenStopCovid
-subtitle: Solution de contact tracing décentralisée<br>100% libre et issue de la société civile
+subtitle: Solution de contact tracing décentralisée<br>100 % libre et issue de la société civile
 use-site-title: true
 ---
 

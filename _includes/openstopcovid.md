@@ -17,7 +17,7 @@ Le problème ici est moins de savoir comment réaliser ce calcul que de détermi
 
 Nous pensons qu'il est trop risqué de réunir des données de cet ordre dans un serveur central, aussi sécurisé soit-il. Vu les évolutions de l'informatique, ces données anonymes aujourd'hui ne le seront peut-être plus demain. En outre, se pose le risque de centralisation, d’enregistrement et croisement de ces informations avec d'autres informations telles que, par exemple, les journaux systèmes des opérateurs Télécom. L’approche décentralisée comporte elle-aussi des risques, mais ces derniers restent localisés, et donc minimisés, à l’échelle d’un individu. Ces risques sont comparables à celui induit par l'installation de mouchards ou de caméras d’espionnage.
 
-##  Pourquoi une solution 100% libre
+##  Pourquoi une solution 100 % libre
 
 Les technologies de contact tracing sont intéressantes d’un point de vue épidémiologique. Mais elles posent, en même temps, un risque pour les libertés individuelles. Ce risque peut surgir de manière franche, en amenant la surveillance généralisée de toute la population. Ou de manière insidieuse, à moyen et long terme, en incitant les personnes à s'accommoder d’un traçage régulier de leurs faits et gestes. Pour réduire ces risques, il est nécessaire de conserver un contrôle citoyen sur le “code source” (plan de fabrication) des applications.
 
