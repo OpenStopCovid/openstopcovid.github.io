@@ -1,5 +1,4 @@
 ---
-layout: page
 title: About us
 subtitle: Our history
 about: A propos
