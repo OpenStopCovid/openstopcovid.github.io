@@ -16,20 +16,30 @@
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
+
+      {% assign locale = page.url | replace:'/',' ' | truncatewords: 1,"" %}
+
       {%- for link in site.navbar-links -%}
         {%- if link[1].first %}
+        
           <li class="navlinks-container">
-            <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
+              {% assign key = link[0] %}
+            <!--a class="navlinks-parent" href="javascript:void(0)">{{ page[key] }}</a-->
+            <a href="javascript:void(0)">{{ page[key] }}</a>
             <div class="navlinks-children">
               {%- for childlink in link[1] -%}
               {%- for linkparts in childlink %}
-              <a href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
+              {% assign key = linkparts[0] %}
+              {%- if page[key] %}
+              <a href="{{ linkparts[1] | relative_url }}">{{ page[key] }}</a>
+              {%- endif -%}
               {%- endfor -%}
               {%- endfor %}
             </div>
           </li>
         {% else %}
-          <li><a href="{{ link[1] | relative_url }}">{{ link[0] }}</a></li>
+          {% assign key = link[0] %}
+          <li><a href="{{ locale | append:'/' | append:link[1] | relative_url }}">{{ page[key] }}</a></li>
         {%- endif -%}
       {%- endfor -%}
       </ul>

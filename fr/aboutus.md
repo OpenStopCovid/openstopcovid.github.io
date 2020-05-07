@@ -1,3 +1,18 @@
+---
+title: About us
+subtitle: Our history
+about: A propos
+ressources: Ressources
+presskit: Press kit
+appmobile: Application mobile
+uidoctor: Application médicale
+uidoctordev: Application médicale (code)
+appserv: Serveur de l'application
+specs: Specifications
+doc: Documentation
+lang: fr
+---
+
 <style>
 ul.timeline {
     list-style-type: none;
