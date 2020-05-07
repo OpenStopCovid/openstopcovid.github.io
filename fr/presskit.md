@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Press Kit
 subtitle: OpenStopCovid 
 about: A propos
