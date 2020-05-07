@@ -1,3 +1,19 @@
+---
+layout: page
+title: OpenStopCovid
+subtitle: Solution de contact tracing décentralisée<br>100 % libre et issue de la société civile
+about: A propos
+ressources: Ressources
+presskit: Press kit
+appmobile: Application mobile
+uidoctor: Application médicale
+uidoctordev: Application médicale (code)
+appserv: Serveur de l'application
+specs: Specifications
+doc: Documentation
+lang: fr
+---
+
 ## Qu’est-ce que le contact tracing
 
 Le traçage numérique des contacts consiste, pour un utilisateur, à installer une application smartphone spécifique qui, à l’aide de la technologie Bluetooth, repère les autres appareils à proximité. En pratique, le téléphone enregistre en mémoire des pseudonymes que les autres appareils diffusent autour d’eux. Le plus souvent chiffrés, ces pseudonymes ne peuvent être compris que par des smartphones équipés de la même application. 
@@ -38,7 +54,7 @@ Les principales composantes du projet sont les suivantes :
 
 L’architecture que nous avons retenue s’appuie directement sur le protocole DP-3T, et utilise plusieurs composants de référence. Notre implémentation est représentée par le schéma suivant : 
 
-![Architecture](img/architecture.png)
+![Architecture]({{site.url}}/img/architecture.png)
 
 ##  Comment contribuer
 
