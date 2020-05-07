@@ -1,19 +1,19 @@
 ---
 layout: page
 title: Press Kit
-subtitle: OpenStopCovid 
-ressources: Ressources
+subtitle: OpenStopCovid
+ressources: Resources
 presskit: Press kit
-appmobile: Application mobile
-uidoctor: Application médicale
-uidoctordev: Application médicale (code)
-appserv: Serveur de l'application
+appmobile: Mobile application
+uidoctor: Medical application
+uidoctordev: Medical application (code)
+appserv: Application server
 specs: Specifications
 doc: Documentation
-lang: default
+lang: en
 ---
 
-## Application mobile pour les utilisateurs
+## Mobile application for users
 ![OpenStopCovid](/img/mobile-app/App Protocole D3PT V0-16.png)
 ![OpenStopCovid](/img/mobile-app/App Protocole D3PT V0-17.png)
 ![OpenStopCovid](/img/mobile-app/App Protocole D3PT V0-18.png)
@@ -22,7 +22,7 @@ lang: default
 <hr>
 ![OpenStopCovid](/img/mobile-app/App Protocole D3PT V0-15.png)
 
-## Application web pour les médecins
+## Web application for doctors
 ![OpenStopCovid](/img/medic-app/interface-medecin.png)
 <hr>
 ![OpenStopCovid](/img/medic-app/interface-medecin2.png)

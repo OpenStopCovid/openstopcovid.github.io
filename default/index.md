@@ -1,64 +1,64 @@
 ---
 layout: page
 title: OpenStopCovid
-subtitle: Solution de contact tracing décentralisée<br>100 % libre et issue de la société civile
-ressources: Ressources
+subtitle: Decentralized contact tracing solution<br>100% free and from civil society
+ressources: Resources
 presskit: Press kit
-appmobile: Application mobile
-uidoctor: Application médicale
-uidoctordev: Application médicale (code)
-appserv: Serveur de l'application
+appmobile: Mobile application
+uidoctor: Medical application
+uidoctordev: Medical application (code)
+appserv: Application server
 specs: Specifications
 doc: Documentation
-lang: default
+lang: en
 ---
 
-## Qu’est-ce que le contact tracing
+## What is contact tracing ##
 
-Le traçage numérique des contacts consiste, pour un utilisateur, à installer une application smartphone spécifique qui, à l’aide de la technologie Bluetooth, repère les autres appareils à proximité. En pratique, le téléphone enregistre en mémoire des pseudonymes que les autres appareils diffusent autour d’eux. Le plus souvent chiffrés, ces pseudonymes ne peuvent être compris que par des smartphones équipés de la même application. 
+Contact tracing consists, for a user, of installing a specific smartphone application that, using Bluetooth technology, locates other devices in the vicinity. In practice, the phone stores pseudonyms in memory that other devices broadcast around them. Most often encrypted, these pseudonyms can only be understood by smartphones equipped with the same application.
 
-Cette technologie possède  le potentiel ([sans certitude toutefois](https://github.com/DP-3T/documents/issues/224)) de limiter la propagation de la maladie Covid-19 au sein de la population. Ainsi, une application mobile dédiée, développée dans les règles de l’art, pourrait nous permettre de renouer avec un semblant de vie normale, sans pour autant mettre à mal les résultats du confinement qui s’achève. Citons trois avantages à attendre d’une application de traçage :
-* Une personne pourra être rapidement informée lorsqu’elle se sera tenue trop longtemps à proximité d’une personne contaminée. 
-* Une personne pourra recevoir automatiquement des instructions, de la part des autorités de santé publique, sur les mesures à prendre.
-* Une personne pourra, sur une base volontaire, partager avec les épidémiologistes des informations de recherche anonymes en rapport avec la propagation de la maladie sur le territoire.
+This technology has the potential ([but not certainty](https://github.com/DP-3T/documents/issues/224)) to limit the spread of Covid-19 disease in the population. Thus, a dedicated mobile application, developed according to the rules of the art, could allow us to return to a semblance of normal life, without undermining the results of the lockdown that is coming to an end. Let's mention three advantages to be expected from a tracking application:
+* A person can be quickly notified when they've been standing too long in close proximity to an infected person.
+* A person can be automatically instructed by public health authorities on what action to take.
+* A person may, on a voluntary basis, share with epidemiologists anonymous research information related to the spread of the disease in the territory.
 
-Pour autant, le traçage numérique ne saurait être une solution à elle seule contre la pandémie. Il ne peut que participer à un dispositif plus large.
+However, contact tracing alone cannot be a solution to the pandemic. It can only be part of a broader system.
 
-##  Pourquoi une solution décentralisée
+## Why a decentralized solution
 
-Lorsqu’un utilisateur est diagnostiqué positif, il est possible de calculer le risque encouru par toutes les personnes croisées récemment par cet utilisateur. Afin de réaliser cette opération, il faut recueillir l’état de santé de la victime, la date correspondant à l’apparition des symptômes et tous les pseudonymes que son smartphone a émis au cours des jours précédents pour s’identifier auprès des autres utilisateurs. En parallèle, il faut également recueillir les pseudonymes que son smartphone a reçu, de la part des autres utilisateurs, pendant la phase d’incubation de la maladie. En combinant ces données une application de traçage peut déterminer le niveau de risque d’exposition de chaque personne.
+When a user is diagnosed positive, it is possible to calculate the risk incurred by all persons recently crossed by this user. In order to carry out this operation, it is necessary to collect the victim's state of health, the date corresponding to the appearance of symptoms and all the pseudonyms that his smartphone has recorded in the previous days to identify himself to other users. At the same time, it is also necessary to collect the pseudonyms that the smartphone has received from other users during the incubation phase of the disease. By combining these data, a tracking application can determine each person's level of risk of exposure.
 
-Le problème ici est moins de savoir comment réaliser ce calcul que de déterminer où il se déroule et quelles sont les données transmises. En se basant sur le protocole DP-3T, conçu par l’EPFL et ses partenaires, OpenStopCovid a choisie d’adopter une réponse décentralisée à ce problème. Cela signifie que le calcul se déroule dans le smartphone des utilisateurs et que les contacts n’en sortent pas. À l’inverse, une solution centralisée consiste nécessairement à envoyer ses contacts pseudonymisés à un serveur distant, une condition préalable à la réalisation des traitements qui à nos yeux est inacceptable.
+The problem here is less how to perform this calculation than where it takes place and what data is transmitted. Based on the DP-3T protocol, developed by the École polytechnique fédérale de Lausanne ([EPFL](https://www.epfl.ch/en/)) and its partners, OpenStopCovid has chosen to adopt a decentralized response to this problem. This means that the calculation takes place in the user's smartphone and that contacts do not leave it. Conversely, a centralized solution necessarily consists of sending pseudonymized contacts to a remote server, a prerequisite for processing that is unacceptable to us.
 
-Nous pensons qu'il est trop risqué de réunir des données de cet ordre dans un serveur central, aussi sécurisé soit-il. Vu les évolutions de l'informatique, ces données anonymes aujourd'hui ne le seront peut-être plus demain. En outre, se pose le risque de centralisation, d’enregistrement et croisement de ces informations avec d'autres informations telles que, par exemple, les journaux systèmes des opérateurs Télécom. L’approche décentralisée comporte elle-aussi des risques, mais ces derniers restent localisés, et donc minimisés, à l’échelle d’un individu. Ces risques sont comparables à celui induit par l'installation de mouchards ou de caméras d’espionnage.
+We believe that it is too risky to gather such data in a central server, however secure it may be. In view of developments in information technology, such anonymous data today may not be anonymous tomorrow. Furthermore, there is the risk of centralising, recording and cross-referencing this information with other information such as, for example, the system logs of telecom operators. The decentralized approach also involves risks, but these remain localized, and therefore minimized, at the level of an individual. These risks are comparable to those induced by the installation of malwares or spy cameras.
 
-##  Pourquoi une solution 100 % libre
+## Why a 100% free solution
 
-Les technologies de contact tracing sont intéressantes d’un point de vue épidémiologique. Mais elles posent, en même temps, un risque pour les libertés individuelles. Ce risque peut surgir de manière franche, en amenant la surveillance généralisée de toute la population. Ou de manière insidieuse, à moyen et long terme, en incitant les personnes à s'accommoder d’un traçage régulier de leurs faits et gestes. Pour réduire ces risques, il est nécessaire de conserver un contrôle citoyen sur le “code source” (plan de fabrication) des applications.
+Contact tracing technologies are interesting from an epidemiological point of view. But at the same time, they pose a risk to individual liberties. This risk can arise in a straightforward way, by bringing about generalised surveillance of the entire population. Or in an insidious way, in the medium and long term, by encouraging people to make do with regular tracking of their actions. To reduce these risks, it is necessary to maintain citizen control over the "source code" (manufacturing plan) of applications.
 
-Une stratégie pour garantir ce contrôle consiste à publier le code source de l’application sur des plateformes spécialisées. Ce code source, dit “Open Source”, sera alors accessible à quiconque veut le lire et le tester, dans le but de vérifier qu’aucune menace, vulnérabilité ou comportement frauduleux n’altère l’intégrité des données qui circulent à l’intérieur.
+One strategy to ensure this control is to publish the source code of the application on specialized platforms. This source code, known as "Open Source", will then be accessible to anyone who wants to read and test it, with the aim of verifying that no threats, vulnerabilities or fraudulent behaviour alter the integrity of the data circulating inside.
 
-L’autre avantage d’un code source ouvert, c’est de rendre l’application prête à obtenir des contributions de la part de développeurs extérieurs au projet, et non plus seulement de la part d’une équipe restreinte. Aujourd’hui déjà, ces développeurs aident OpenStopCovid à améliorer la sécurité, les performances mais également l’usage et l’ergonomie de l’application et des composants dont elle dépend. Ces contributeurs constituent, en quelques sorte, une équipe de développement illimitée, et internationale.
+The other advantage of open source code is that it makes the application ready for contributions from developers outside the project, not just from a small team. Already today, these developers are helping OpenStopCovid to improve the security, performance but also the usability and ergonomics of the application and the components it depends on. These contributors constitute, in a way, an unlimited and international development team.
 
-A l’inverse, un code source fermé se déleste de tout contrôle extérieur encombrant et pose donc, par extension, des problèmes de légitimité et de sécurité à la société dans son ensemble.
+Conversely, closed source code is free of any cumbersome external control and therefore, by extension, poses legitimacy and security problems for society as a whole.
 
-##  Les composants disponibles
+## Available components
 
-Les principales composantes du projet sont les suivantes : 
+The main components of the project are as follows:
 
-* Une application Android
-* Une application Iphone
-* Une interface pour les professionnels de santé (tiers de confiance)
-* Quelques briques côté serveur assurant la sécurisation du dispositif
+* An Android application
+* An iPhone application
+* An interface for health professionals (trusted third party)
+* Some server-side bricks to secure the device
 
-L’architecture que nous avons retenue s’appuie directement sur le protocole DP-3T, et utilise plusieurs composants de référence. Notre implémentation est représentée par le schéma suivant : 
+The architecture we have chosen is directly based on the DP-3T protocol, and uses several reference components. Our implementation is represented by the following diagram:
 
 ![Architecture]({{site.url}}/img/architecture.png)
 
-##  Comment contribuer
+## How to contribute
 
-Vous pouvez suivre nos travaux sur GitHub : [https://github.com/OpenStopCovid](https://github.com/OpenStopCovid) 
+You can follow our work on [GitHub](https://github.com/OpenStopCovid)
 
-## Nous contacter
+## Contact us
 
 contact@openstopcovid.fr
