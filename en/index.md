@@ -1,5 +1,4 @@
 ---
-layout: page
 title: OpenStopCovid
 subtitle: Decentralized contact tracing solution<br>100% free and from civil society
 ressources: Resources
