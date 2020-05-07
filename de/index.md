@@ -1,5 +1,5 @@
 ---
-layout: Seite
+layout: page
 title: OpenStopCovid
 subtitle: Dezentralisierte Lösung für die Ermittlung von Kontaktpersonen<br>100% frei und zivilgesellschaftlich
 ressources: Ressourcen

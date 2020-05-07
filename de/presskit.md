@@ -1,5 +1,5 @@
 ---
-layout: Seite
+layout: page
 title: Pressemappe
 subtitle: OpenStopCovid
 ressources: Ressourcen
