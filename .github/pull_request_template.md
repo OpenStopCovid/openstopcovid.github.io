@@ -1,5 +1,2 @@
-Please note that if you are trying to update **your** website, this is the wrong place to do so. Please carefully follow the Beautiful Jekyll instructions (found at https://github.com/daattali/beautiful-jekyll#readme) and make sure you submit changes to **your** version of the project.
-
-If your intention is to submit a Pull Request, please describe what your pull request achieves.
-
-Thank you!
+If you have added a new language, please indicates:
+- [the two-letter-country-code you used](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
