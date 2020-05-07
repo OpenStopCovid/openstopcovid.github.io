@@ -11,18 +11,22 @@ description:
 # Your name to show in the footer
 author: OpenStopCovid
 
+# Languages
+langs: [fr]
+
+
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  A propos: "aboutus"
-  Resources:
-    - Application mobile: "https://github.com/OpenStopCovid/app"
-    - Interface médecin: "https://pro-sante.openstopcovid.fr/#home"
-    - Interface médecin-code: "https://github.com/OpenStopCovid/health-authority-ui"
-    - Serveur de l'application: "https://github.com/OpenStopCovid/dp3t-ms"
-    - Specifications: "https://github.com/DP-3T/documents/blob/master/DP3T%20White%20Paper.pdf"
-    - Documentation: "https://github.com/DP-3T/documents"
-  Press Kit: "presskit"
+  about: "aboutus"
+  ressources:
+    - appmobile: "https://github.com/OpenStopCovid/app"
+    - uidoctor: "https://pro-sante.openstopcovid.fr/#home"
+    - uidoctordev: "https://github.com/OpenStopCovid/health-authority-ui"
+    - appserv: "https://github.com/OpenStopCovid/dp3t-ms"
+    - specs: "https://github.com/DP-3T/documents/blob/master/DP3T%20White%20Paper.pdf"
+    - doc: "https://github.com/DP-3T/documents"
+  presskit: "presskit"
 
 # --- Local development options ---
 
