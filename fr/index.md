@@ -1,3 +1,18 @@
+---
+title: OpenStopCovid
+subtitle: Solution de contact tracing décentralisée<br>100 % libre et issue de la société civile
+about: A propos
+ressources: Ressources
+presskit: Press kit
+appmobile: Application mobile
+uidoctor: Application médicale
+uidoctordev: Application médicale (code)
+appserv: Serveur de l'application
+specs: Specifications
+doc: Documentation
+lang: fr
+---
+
 ## Qu’est-ce que le contact tracing
 
 Le traçage numérique des contacts consiste, pour un utilisateur, à installer une application smartphone spécifique qui, à l’aide de la technologie Bluetooth, repère les autres appareils à proximité. En pratique, le téléphone enregistre en mémoire des pseudonymes que les autres appareils diffusent autour d’eux. Le plus souvent chiffrés, ces pseudonymes ne peuvent être compris que par des smartphones équipés de la même application. 
@@ -13,7 +28,7 @@ Pour autant, le traçage numérique ne saurait être une solution à elle seule 
 
 Lorsqu’un utilisateur est diagnostiqué positif, il est possible de calculer le risque encouru par toutes les personnes croisées récemment par cet utilisateur. Afin de réaliser cette opération, il faut recueillir l’état de santé de la victime, la date correspondant à l’apparition des symptômes et tous les pseudonymes que son smartphone a émis au cours des jours précédents pour s’identifier auprès des autres utilisateurs. En parallèle, il faut également recueillir les pseudonymes que son smartphone a reçu, de la part des autres utilisateurs, pendant la phase d’incubation de la maladie. En combinant ces données une application de traçage peut déterminer le niveau de risque d’exposition de chaque personne.
 
-Le problème ici est moins de savoir comment réaliser ce calcul que de déterminer où il se déroule et quelles sont les données transmises. En se basant sur le protocole DP-3T, conçu par l’EPFL et ses partenaires, OpenStopCovid a choisie d’adopter une réponse décentralisée à ce problème. Cela signifie que le calcul se déroule dans le smartphone des utilisateurs et que les contacts n’en sortent pas. À l’inverse, une solution centralisée consiste nécessairement à envoyer ses contacts pseudonymisés à un serveur distant, une condition préalable à la réalisation des traitements qui à nos yeux est inacceptable.
+Le problème ici est moins de savoir comment réaliser ce calcul que de déterminer où il se déroule et quelles sont les données transmises. En se basant sur le protocole DP-3T, conçu par l’École polytechnique fédérale de Lausanne ([EPFL](https://www.epfl.ch/fr/)) et ses partenaires, OpenStopCovid a choisie d’adopter une réponse décentralisée à ce problème. Cela signifie que le calcul se déroule dans le smartphone des utilisateurs et que les contacts n’en sortent pas. À l’inverse, une solution centralisée consiste nécessairement à envoyer ses contacts pseudonymisés à un serveur distant, une condition préalable à la réalisation des traitements qui à nos yeux est inacceptable.
 
 Nous pensons qu'il est trop risqué de réunir des données de cet ordre dans un serveur central, aussi sécurisé soit-il. Vu les évolutions de l'informatique, ces données anonymes aujourd'hui ne le seront peut-être plus demain. En outre, se pose le risque de centralisation, d’enregistrement et croisement de ces informations avec d'autres informations telles que, par exemple, les journaux systèmes des opérateurs Télécom. L’approche décentralisée comporte elle-aussi des risques, mais ces derniers restent localisés, et donc minimisés, à l’échelle d’un individu. Ces risques sont comparables à celui induit par l'installation de mouchards ou de caméras d’espionnage.
 
@@ -38,7 +53,7 @@ Les principales composantes du projet sont les suivantes :
 
 L’architecture que nous avons retenue s’appuie directement sur le protocole DP-3T, et utilise plusieurs composants de référence. Notre implémentation est représentée par le schéma suivant : 
 
-![Architecture](img/architecture.png)
+![Architecture]({{site.url}}/img/architecture.png)
 
 ##  Comment contribuer
 
